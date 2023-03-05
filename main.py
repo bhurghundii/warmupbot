@@ -13,7 +13,7 @@ unique_genres = df["Genre"].unique()
 
 for genre in unique_genres:
     selected_pd = (df.loc[df['Genre'] == genre])
-    print("\n \nTask for ", genre)
+    print("\n \n ## Task for ", genre)
 
     for value in (selected_pd.sample(Genre[genre].value).values):
         print (value[0])
