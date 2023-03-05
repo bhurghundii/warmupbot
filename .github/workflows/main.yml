@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # At 00:00 on Monday
+    - cron: '0 0 * * *'
   push:
     branches: [ "main" ]
 
@@ -23,5 +23,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: execute py script # run main.py
-        run: python main.py
+      - name: Run script
+        run: python main.py > todo.md 
+      
+      - name: Create a PR to show you what to do
+        uses: peter-evans/create-pull-request@v4
