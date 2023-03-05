@@ -26,6 +26,19 @@ jobs:
       - name: Run script
         run: python main.py > todo.md 
       
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          
+      - name: Set up commit 
+        run: |
+          # Stage the file, commit and push
+          git add time.txt
+          git commit -m "new date commit"
+          git push origin master
+      
       - name: create pull request
         run: gh pr create -B base_branch -H branch_to_merge --title 'Routine' --body 'Created by Github action'
         env:
