@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run script
-        run: python main.py > todo.md 
+        run: python main.py > "$(date +"%Y_%m_%d_%I_%M_%p").md"
       
       - name: setup git config
         run: |
@@ -35,8 +35,8 @@ jobs:
       - name: Set up commit 
         run: |
           # Stage the file, commit and push
-          git add time.txt
-          git commit -m "new date commit"
+          git add .
+          git commit -m "New Todo for output"
           git push origin master
       
       - name: create pull request
