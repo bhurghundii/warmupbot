@@ -24,23 +24,14 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run script
-        run: python main.py > "$(date +"%Y_%m_%d_%I_%M_%p").md"
-      
-      - name: setup git config
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-          
-      - name: Set up commit 
-        run: |
-          # Stage the file, commit and push
-          git checkout -b  "$(date +"%Y_%m_%d_%I_%M_%p")"
-          git add .
-          git commit -m "New Todo for output"
-          git push origin HEAD:master
-      
-      - name: create pull request
-        run: gh pr create -B base_branch -H branch_to_merge --title 'Routine' --body 'Created by Github action'
-        env:
-          GH_TOKEN: ${{ github.token }}
+        run: python main.py > "todo.md"
+        
+        
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: An example issue
+          content-filepath: todo.md
+          labels: |
+            report
+            automated issue
