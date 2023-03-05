@@ -37,7 +37,7 @@ jobs:
           # Stage the file, commit and push
           git add .
           git commit -m "New Todo for output"
-          git push origin master
+          git push origin HEAD:master
       
       - name: create pull request
         run: gh pr create -B base_branch -H branch_to_merge --title 'Routine' --body 'Created by Github action'
