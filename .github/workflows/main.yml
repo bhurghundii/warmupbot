@@ -35,6 +35,7 @@ jobs:
       - name: Set up commit 
         run: |
           # Stage the file, commit and push
+          git checkout -b  "$(date +"%Y_%m_%d_%I_%M_%p")"
           git add .
           git commit -m "New Todo for output"
           git push origin HEAD:master
