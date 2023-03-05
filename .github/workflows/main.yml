@@ -28,3 +28,5 @@ jobs:
       
       - name: create pull request
         run: gh pr create -B base_branch -H branch_to_merge --title 'Routine' --body 'Created by Github action'
+        env:
+          GH_TOKEN: ${{ github.token }}
