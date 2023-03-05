@@ -27,4 +27,4 @@ jobs:
         run: python main.py > todo.md 
       
       - name: create pull request
-        run: gh pr create -B base_branch -H branch_to_merge --title 'Today's routine' --body 'Created by Github action'
+        run: gh pr create -B base_branch -H branch_to_merge --title 'Routine' --body 'Created by Github action'
