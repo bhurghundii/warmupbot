@@ -7,6 +7,7 @@ class Genre(Enum):
     Art =  3
     Stills = 1 
     Programming = 1 
+    TKD = 1 
 
 df = pd.read_csv("kata.csv")
 unique_genres = df["Genre"].unique()
