@@ -28,7 +28,7 @@ jobs:
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: Your To-Do for today
+          title: Your Creative Routine Today
           content-filepath: todo.md
           labels: |
             report
