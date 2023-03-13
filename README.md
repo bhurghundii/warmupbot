@@ -3,8 +3,8 @@ Ever sat down to do a creative work, only to struggle to get started? What you n
 Using Github actions and a CSV file, randomly geneate a warm up excercise list to execute every day!
 
 ## Who is this for: 
-Optimise your creative routine by generating a list of ** warm up excercises ** to get started against.
-I use this tool personally to give me a list of excercises to warm up against before I start painting but ** you can use this for any other task such as workout routines ** 
+Optimise your creative routine by generating a list of **warm up excercises** to get started against.
+I use this tool personally to give me a list of excercises to warm up against before I start painting but **you can use this for any other task such as workout routines** 
 
 ## Why use this:
 It's totally free and completely self-contained on Github. 
