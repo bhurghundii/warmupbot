@@ -12,6 +12,9 @@ You can use to create add spice to your workout routines, or to learn a language
 Turn on Github Actions for your repo. It's by default off but go into setitngs and switch it on. 
 
 ### Step 2 
+Set Workflow Actions to read and write - this is so your integration can drop tasks
+
+### Step 3
 Create excercises you want to generate for your to-do list. 
 
 In kata.csv is an example of various art excercises I do before I draw. 
