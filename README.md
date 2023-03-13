@@ -36,3 +36,6 @@ Once you set that up and push it to your main branch, every midnight, a Chron jo
 We need technical help to write tests and extend this to support other data formats and potentially other tasks.
 
 If you make your tasks list public, let me know and I am more than happy to link them so others can use them!
+
+## Got ideas or improvements? Here are my socials: 
+Twitter - [@vikadilly](https://twitter.com/vikadilly)
