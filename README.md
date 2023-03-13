@@ -12,6 +12,8 @@ This is good as this means you own your bots and don't require any extra SaaS su
 
 # How to use this
 
+## Setting this up for your accounts
+
 ### Step 1 
 Turn on Github Actions for your repo. It's by default off but go into setitngs and switch it on. 
 ![image](https://user-images.githubusercontent.com/24465934/224672276-29a8cac1-44ec-4904-a281-5821b1adb29f.png)
@@ -21,16 +23,21 @@ Turn on Github Actions for your repo. It's by default off but go into setitngs a
 Set Workflow Actions to read and write - this is so your integration can drop tasks
 ![image](https://user-images.githubusercontent.com/24465934/224672308-3aa4ebc7-2067-409f-9c67-57196002bf5f.png)
 
+## Generating a warm up routine
+
 ### Step 3
 Create excercises you want to generate for your to-do list. 
 
 You do this by adding tasks in the kata.csv 
 (Named after the [excercises you do in karate](https://en.wikipedia.org/wiki/Kata))
 
-The format of excercises is as follows: 
+The format of excercises (with examples) is as follows: 
 
-| Task to do | Details on the task to do | Genre of Task 
-
+  | Task to do   | Details on the task to do   | Genre of Task |
+  |--------------|--------------|--------------|
+  | TASK | DETAILS OF TASK SUCH AS URL| ART  |
+  | PUSH UPS | HOW MANY TO DO | GYM   |
+  | READ A FRENCH ARTICLE | LINK TO FRENCH WEBSITE | FRENCH |
 
 In kata.csv is an example of various art excercises I do before I draw. 
 
