@@ -25,8 +25,7 @@ Set Workflow Actions to read and write - this is so your integration can drop ta
 ### Step 3
 Create exercises you want to generate for your to-do list. 
 
-You do this by adding tasks in the kata.csv 
-(Named after the [exercises you do in karate](https://en.wikipedia.org/wiki/Kata))
+You do this by adding tasks in the kata.csv (named after the [exercises you do in karate](https://en.wikipedia.org/wiki/Kata))
 
 The format of exercises (with examples) is as follows: 
 
@@ -38,7 +37,7 @@ The format of exercises (with examples) is as follows:
 
 In kata.csv is an example of various art exercises I do before I draw. 
 
-Feel free to overwrite it with your own exercise but the format for tasks should go like this: 
+Feel free to overwrite it with your own exercises!
 
 Once you set that up and push it to your main branch, every midnight, a cron job using Github Actions will run for you and create a To Do list for you! 
 
