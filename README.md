@@ -1,21 +1,18 @@
 # Warm Up Bot
-Ever sat down to do a creative work, only to struggle to get started? What you need is a warm up!
-Using Github actions and a CSV file, randomly geneate a warm up excercise list to execute every day!
+Are you tired of sitting down to do creative work and struggling to get started? Do you wish you had a way to warm up your mind and get your creative juices flowing? Look no further than the Warm Up Bot! With Github actions and a CSV file, you can generate a personalized list of warm-up exercises to execute every day.
 
-## Who is this for: 
-Optimise your creative routine by generating a list of **warm up excercises** to get started against.
-I use this tool personally to give me a list of excercises to warm up against before I start painting but **you can use this for any other task such as workout routines** 
+## Who is this for:
+This tool is perfect for anyone looking to optimize their creative routine. Whether you're a painter or someone who needs to warm up before a workout, the Warm Up Bot has got you covered.
 
-## Why use this:
-It's totally free and completely self-contained on Github. 
-This is good as this means you own your bots and don't require any extra SaaS subscriptions to get yourself a plan that works for you!
+## Why use this
+It's completely free and self-contained on Github, so you don't need any extra subscriptions or services. You own your bot and can customize it to fit your unique needs. So why not give it a try and see how much it can improve your creative output?
 
 # How to use this
 
 ## Setting this up for your accounts
 
 ### Step 1 
-Turn on Github Actions for your repo. It's by default off but go into setitngs and switch it on. 
+Turn on Github Actions for your repo. It's by default off but go into settings and switch it on. 
 ![image](https://user-images.githubusercontent.com/24465934/224672276-29a8cac1-44ec-4904-a281-5821b1adb29f.png)
 
 
@@ -26,12 +23,12 @@ Set Workflow Actions to read and write - this is so your integration can drop ta
 ## Generating a warm up routine
 
 ### Step 3
-Create excercises you want to generate for your to-do list. 
+Create exercises you want to generate for your to-do list. 
 
 You do this by adding tasks in the kata.csv 
-(Named after the [excercises you do in karate](https://en.wikipedia.org/wiki/Kata))
+(Named after the [exercises you do in karate](https://en.wikipedia.org/wiki/Kata))
 
-The format of excercises (with examples) is as follows: 
+The format of exercises (with examples) is as follows: 
 
   | Task to do   | Details on the task to do   | Genre of Task |
   |--------------|--------------|--------------|
@@ -39,11 +36,11 @@ The format of excercises (with examples) is as follows:
   | PUSH UPS | HOW MANY TO DO | GYM   |
   | READ A FRENCH ARTICLE | LINK TO FRENCH WEBSITE | FRENCH |
 
-In kata.csv is an example of various art excercises I do before I draw. 
+In kata.csv is an example of various art exercises I do before I draw. 
 
-Feel free to overrwrite it with your own excercise but the format for tasks should go like this: 
+Feel free to overwrite it with your own exercise but the format for tasks should go like this: 
 
-Once you set that up and push it to your main branch, every midnight, a chronjob using Github Actions will run for you and create a To Do list for you! 
+Once you set that up and push it to your main branch, every midnight, a cron job using Github Actions will run for you and create a To Do list for you! 
 
 [See an example](https://github.com/vikadilly/creativeroutinebot/issues/11)
 
@@ -56,3 +53,4 @@ If you make your tasks list public, let me know and I am more than happy to link
 
 ## Got ideas or improvements? Here are my socials: 
 Twitter - [@vikadilly](https://twitter.com/vikadilly)
+
