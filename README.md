@@ -14,22 +14,32 @@ This is good as this means you own your bots and don't require any extra SaaS su
 
 ### Step 1 
 Turn on Github Actions for your repo. It's by default off but go into setitngs and switch it on. 
+![image](https://user-images.githubusercontent.com/24465934/224672276-29a8cac1-44ec-4904-a281-5821b1adb29f.png)
+
 
 ### Step 2 
 Set Workflow Actions to read and write - this is so your integration can drop tasks
+![image](https://user-images.githubusercontent.com/24465934/224672308-3aa4ebc7-2067-409f-9c67-57196002bf5f.png)
 
 ### Step 3
 Create excercises you want to generate for your to-do list. 
+
+You do this by adding tasks in the kata.csv 
+(Named after the [excercises you do in karate](https://en.wikipedia.org/wiki/Kata))
+
+The format of excercises is as follows: 
+
+| Task to do | Details on the task to do | Genre of Task 
+
 
 In kata.csv is an example of various art excercises I do before I draw. 
 
 Feel free to overrwrite it with your own excercise but the format for tasks should go like this: 
 
-| Task to do | Details on the task to do | Genre of Task 
-
-Once you set that up and push it to your main branch, every midnight, a Chron job will run for you and create a To Do list for you! 
+Once you set that up and push it to your main branch, every midnight, a chronjob using Github Actions will run for you and create a To Do list for you! 
 
 [See an example](https://github.com/vikadilly/creativeroutinebot/issues/11)
+
 
 # Want to support this project? 
 
