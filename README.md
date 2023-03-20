@@ -9,7 +9,7 @@ It's completely free and self-contained on Github, so you don't need any extra s
 
 # How to use this
 
-## Setting this up for your accounts
+## Setting this up for your account
 
 ### Step 1 
 Turn on Github Actions for your repo. It's by default off but go into settings and switch it on. 
