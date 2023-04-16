@@ -4,9 +4,6 @@ Are you tired of sitting down to do creative work and struggling to get started?
 ## Who is this for:
 This tool is perfect for anyone looking to optimize their creative routine. Whether you're a painter or someone who needs to warm up before a workout, the Warm Up Bot has got you covered.
 
-## Why use this
-It's completely free and self-contained on Github, so you don't need any extra subscriptions or services. You own your bot and can customize it to fit your unique needs. So why not give it a try and see how much it can improve your creative output?
-
 # How to use this
 
 ## Setting this up for your account
