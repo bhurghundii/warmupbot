@@ -43,10 +43,8 @@ Once you set that up and push it to your main branch, every midnight, a cron job
 
 # Want to support this project? 
 
-We need technical help to write tests and extend this to support other data formats and potentially other tasks.
+Just shout out about it and let me know what's on your mind on my Twitter [@vikadilly](https://twitter.com/vikadilly)
 
 If you make your tasks list public, let me know and I am more than happy to link them so others can use them!
 
-## Got ideas or improvements? Here are my socials: 
-Twitter - [@vikadilly](https://twitter.com/vikadilly)
 
