@@ -36,7 +36,7 @@ In kata.csv is an example of various art exercises I do before I draw.
 
 Feel free to overwrite it with your own exercises!
 
-Once you set that up and push it to your main branch, every midnight, a cron job using Github Actions will run for you and create a To Do list for you! 
+Once you set that up and push it to your main branch, every midnight, a cron job using Github Actions will run for you and create a To Do list for you! Assuming you've done everything right, you'll get emailed every day.
 
 [See an example](https://github.com/vikadilly/creativeroutinebot/issues/11)
 
