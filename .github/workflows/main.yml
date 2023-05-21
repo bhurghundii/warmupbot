@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run script
-        run: python creativeroutinebot/main.py > "todo.md"
+        run: python warmupbot/main.py > "todo.md"
         
         
       - name: Create Issue From File
